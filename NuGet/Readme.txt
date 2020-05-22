@@ -11,7 +11,7 @@ Post Installation:
   - `AnyCPU` target is supported though requires additional code/changes see https://github.com/cefsharp/CefSharp/issues/1714 for details.
   - After installing the `Nuget` package we recommend closing Visual Studio completely and then reopening (This ensures your references show up and you have full intellisense).
   - Check your output `\bin` directory to make sure the appropriate references have been copied.
-  - Build fails even though packages are installed. Short term rebuild again and everything should be find. Long term we recommend reading http://www.xavierdecoster.com/migrate-away-from-msbuild-based-nuget-package-restore
+  - Build fails even though packages are installed. Short term rebuild again and everything should be fine. Long term we recommend reading http://www.xavierdecoster.com/migrate-away-from-msbuild-based-nuget-package-restore
   - Minimal designer support was added in version `57.0.0 for both `WinForms` and `WPF`. For older versions there is no designer support (designer will throw an exception).
   - Add an app.manifest to your exe if you don't already have one, it's required for Windows 10 compatability, HighDPI support and tooltips. The   https://github.com/cefsharp/CefSharp.MinimalExample project contains an example app.manifest file in the root of the WPF/WinForms/OffScreen examples. 
 - .Net Core requires additional steps see https://github.com/cefsharp/CefSharp/issues/2796
